@@ -1,0 +1,72 @@
+.header{
+	background-image: url("../images/2.jpg");
+	background-size: 100% 500px;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+	max-height: 500px;
+	border: solid 3px black;
+}
+
+.panel{
+	max-width: 800px;
+	align: center;
+	background-color: #C3834D;
+	border: solid 2px white;
+}
+
+.main-link{
+	color: white;
+	transition: all 2s linear;
+}
+
+.main-link:hover { 
+	transform: scale(2.4); 
+}
+
+.skills{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	background-image: url("../images/3.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border: solid 3px black;
+}
+
+.skill-name{
+	transition: all 2s linear;
+}
+
+.skill-name:hover{
+	transform: scale(1.5);
+}
+
+.work-experience{
+	width: 100%;
+	max-height: 500px;
+	height: 500px;
+	background-image: url("../images/1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 500px;
+	border: solid 3px black;
+}
+
+.projects{
+	width: 100%;
+	max-height: 500px;
+	height: 500px;
+	background-color: white;
+	border: solid 3px black;
+}
+
+.courses{
+	width: 100%;
+	max-height: 500px;
+	height: 500px;
+	background-image: url("../images/1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 500px;
+	border: solid 3px black;
+}
+
