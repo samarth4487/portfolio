@@ -10,7 +10,8 @@
 	<script src="js/jQuery.js"></script>
 </head>
 <body>
-	<div class="container-fluid"><br><br>
+	<!-- div for topmost row i.e for name and navigation section -->
+	<div class="container-fluid header"><br><br>
 		<div class="row">
 			<div class="col-md-12">
 				<img id="name" src="images/samarth.png"><br>
@@ -20,16 +21,16 @@
 		<div class="navigation">
 			<div class="row">
 				<div class="col-md-2"></div>
-				<div class="col-md-2 experience text-center">
+				<div class="col-md-2 text-center">
 					<button type="button" class="btn btn-warning btn-lg"><strong>EXPERIENCE</strong></button>
 				</div>
-				<div class="col-md-2 projects text-center">
+				<div class="col-md-2 text-center">
 					<button type="button" class="btn btn-warning btn-lg"><strong>PROJECTS</strong></button>
 				</div>
-				<div class="col-md-2 skills text-center">
+				<div class="col-md-2 text-center">
 					<button type="button" class="btn btn-warning btn-lg"><strong>SKILLS</strong></button>
 				</div>
-				<div class="col-md-2 courses text-center">
+				<div class="col-md-2 text-center">
 					<button type="button" class="btn btn-warning btn-lg"><strong>COURSES</strong></button>
 				</div>
 				<div class="col-md-2"></div>
@@ -37,6 +38,33 @@
 		</div>
 	</div>
 
+	<!-- div for experience section-->
+	<div class="container experience">
+		<h1 class="text-center text-uppercase">experience</h1>
+	</div>
+	
+	<!-- div for projects section-->
+	<div class="container-fluid projects">
+		<h1 class="text-center text-uppercase">projects</h1>
+	</div>
+
+	<!-- div for skills section-->
+	<div class="container skills">
+		<h1 class="text-center text-uppercase">skills</h1><br>
+		<div class="row skills-info">
+			<!-- It contains all different skills and appended using JQuery and JS -->
+		</div><br>
+	</div>
+
+	<!-- div for courses section-->
+	<div class="container-fluid courses">
+		<h1 class="text-uppercase text-center">courses taken</h1>
+		<ul class="courses-info">
+			<!-- It contains all different courses info and appended using jQuery and JS -->
+		</ul>
+	</div>
+
+	<!-- my own javascript file -->
 	<script type="text/javascript" src="js/helper.js"></script>
 </body>
 </html>
