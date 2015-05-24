@@ -22,16 +22,16 @@
 			<div class="row">
 				<div class="col-md-2"></div>
 				<div class="col-md-2 text-center">
-					<button type="button" class="btn btn-warning btn-lg"><strong>EXPERIENCE</strong></button>
+					<a href="#experience"><button type="button" class="btn btn-warning btn-lg"><strong>EXPERIENCE</strong></button></a>
 				</div>
 				<div class="col-md-2 text-center">
-					<button type="button" class="btn btn-warning btn-lg"><strong>PROJECTS</strong></button>
+					<a href="#projects"><button type="button" class="btn btn-warning btn-lg"><strong>PROJECTS</strong></button></a>
 				</div>
 				<div class="col-md-2 text-center">
-					<button type="button" class="btn btn-warning btn-lg"><strong>SKILLS</strong></button>
+					<a href="#skills"><button type="button" class="btn btn-warning btn-lg"><strong>SKILLS</strong></button></a>
 				</div>
 				<div class="col-md-2 text-center">
-					<button type="button" class="btn btn-warning btn-lg"><strong>COURSES</strong></button>
+					<a href="#courses"><button type="button" class="btn btn-warning btn-lg"><strong>COURSES</strong></button></a>
 				</div>
 				<div class="col-md-2"></div>
 			</div>
@@ -39,17 +39,20 @@
 	</div>
 
 	<!-- div for experience section-->
-	<div class="container experience">
+	<div class="container" id="experience">
 		<h1 class="text-center text-uppercase">experience</h1>
 	</div>
 	
 	<!-- div for projects section-->
-	<div class="container-fluid projects">
-		<h1 class="text-center text-uppercase">projects</h1>
+	<div class="container-fluid" id="projects">
+		<h1 class="text-center text-uppercase">projects</h1><br>
+		<ul class="row projects-info">
+			<!-- It contains all different projects and appended using jQuery and JS -->
+		</ul>
 	</div>
 
 	<!-- div for skills section-->
-	<div class="container skills">
+	<div class="container" id="skills">
 		<h1 class="text-center text-uppercase">skills</h1><br>
 		<div class="row skills-info">
 			<!-- It contains all different skills and appended using JQuery and JS -->
@@ -57,7 +60,7 @@
 	</div>
 
 	<!-- div for courses section-->
-	<div class="container-fluid courses">
+	<div class="container-fluid" id="courses">
 		<h1 class="text-uppercase text-center">courses taken</h1>
 		<ul class="courses-info">
 			<!-- It contains all different courses info and appended using jQuery and JS -->

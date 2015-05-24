@@ -1,3 +1,30 @@
+// format for projects section
+projects = '<li><h3><strong><em>%data%</em></strong></h3></li><div class="row"><div class="col-md-4"><img src="images/%data1%" alt="projects" class="img-responsive img-rounded" width="400px" height="200px"></div><div class="col-md-8"><h4>Language(s): <strong><em>%data2%</em></strong></h4><p>%data3%</p></div></div>';
+projectsObject = {
+	'name': ['Portfolio','Change My Voice','Gaming Hour','Grapher','Resume Builder','Magic of Beginners'],
+	'image': ['portfolio.png',
+			'changemyvoice.jpg',
+			'gaming.png',
+			'grapher.png',
+			'resume.jpg',
+			'education.png'],
+	'language': ['Javascript, jQuery, HTML, CSS3, Bootstrap',
+				'Swift',
+				'HTML, CSS3, Bootstrap',
+				'Python(2.7), Pygame',
+				'C++ with HTML embedded',
+				'HTML, CSS3'],
+	'details': []
+}
+for(var a=0; a<projectsObject.name.length; a++){
+	projects1 = projects.replace('%data%', projectsObject.name[a]);
+	projects2 = projects1.replace('%data1%', projectsObject.image[a]);
+	projects3 = projects2.replace('%data2%', projectsObject.language[a]);
+	projects4 = projects3.replace('%data3%', projectsObject.details[a]);
+	$('.projects-info').append(projects4);
+}
+
+
 // format for skills section
 skills = '<div class="col-md-3"><img src="images/%data%" alt="skills" class="img-responsive img-circle"></div>';
 skillsArray = ['python.png','js.png','html.png','css.png','jquery.png','django.png','c.png','cpp.png','swift.png','java.png','ruby.png'];
